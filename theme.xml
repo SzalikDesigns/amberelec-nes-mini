@@ -1,13 +1,11 @@
 <!--
 theme name:		nesmini
-version:		1.0
-author:			ruckage
+version:		2.0
+author:			Szalik & ruckage
 -->
 
-
-
 <theme>
-    <formatVersion>3</formatVersion>
+    <formatVersion>4</formatVersion>
 
 	<include>./layout.xml</include>
 	<include>./${system.theme}/style.xml</include>
@@ -20,10 +18,10 @@ author:			ruckage
 			<fontPath>./art/TinyUnicode.ttf</fontPath>
 			<fontSize>0.06666666666666</fontSize>
 		</helpsystem>
-		
+
 		<image name="background" extra="true">
-				<path>./${system.theme}/system_art.png</path>
-				<default>./default/default_art.png</default>
+			<path>./default/default_art.png</path>
+			<path>./${system.theme}/system_art.png</path>
 		</image>
 		
 		<image name="system_help" extra="true">
@@ -31,16 +29,13 @@ author:			ruckage
 			<pos>0 1</pos>
 			<origin>0 1</origin>
 		</image>
-		
 	</view>
 	
 	<feature supported="carousel">
-
 		<view name="system">
-		
 			<image name="background" extra="true">
+				<path>./default/default_art.png</path>
 				<path>./${system.theme}/system_art.png</path>
-				<default>./default/default_art.png</default>
 			</image>
 
 			<carousel name="systemcarousel">
@@ -48,16 +43,16 @@ author:			ruckage
 				<color>00000000</color>
 				<logoScale>1</logoScale>
 			</carousel>
-			
+
 			<image name="logo">
 				<path>./${system.theme}/carousel_logo.png</path>
-				<default>./default/default_logo.png</default>
+				<!--<default>./default/default_logo.png</default>-->
 			</image>
-			
+
 			<text name="logoText">
-            <fontPath>./art/TinyUnicode.ttf</fontPath>
-            <color>FF0000</color>
-            <forceUppercase>true</forceUppercase>
+				<fontPath>./art/TinyUnicode.ttf</fontPath>
+				<color>FF0000</color>
+				<forceUppercase>true</forceUppercase>
 			</text>			
 
 			<text name="systemInfo">
@@ -66,18 +61,15 @@ author:			ruckage
 				<fontPath>./art/NESCyrillic_gamelist.ttf</fontPath>
 				<fontSize>0.0592592592592593</fontSize>
 			</text>
-			
-		<image name="carousel_bar" extra="true">
-			<path>./art/carousel_bar.png</path>
-			<origin>0.5 0</origin>
-		</image>			
 
+			<image name="carousel_bar" extra="true">
+				<path>./art/carousel_bar.png</path>
+				<origin>0.5 0</origin>
+			</image>
 		</view>
-
 	</feature>
 	
     <view name="video">
-		
 		<video name="md_video">
 			<showSnapshotNoVideo>false</showSnapshotNoVideo>
 			<showSnapshotDelay>false</showSnapshotDelay>
@@ -87,17 +79,15 @@ author:			ruckage
 		<image name="md_marquee">
 			<pos>2 2</pos>
 		</image>
-
 	</view>		
 	
 	
     <view name="basic, detailed, video">
-	
 		<image name="background" extra="true">
 			<pos>0 0.5</pos>
 			<origin>0 0.5</origin>
+			<path>./default/default_background.png</path>
 			<path>./${system.theme}/menu_background.png</path>
-			<default>./default/default_background.png</default>
 		</image>
 
 		<image name="gamelist_help" extra="true">
@@ -176,10 +166,6 @@ author:			ruckage
 			<fontSize>0.0592592592592593</fontSize>
 		</textlist>
 		
-
-
-		
-		
 		<sound name="systemscroll">
 			<path>./art/systemscroll.wav</path>
 		</sound>
@@ -187,8 +173,6 @@ author:			ruckage
 		<sound name="systemselect">
 			<path>./art/systemscroll.wav</path>
 		</sound>
-		
-
 		
 		<sound name="back">
 			<path>./art/back.wav</path>
@@ -201,7 +185,6 @@ author:			ruckage
 		<sound name="menuopen">
 			<path>./art/menu.wav</path>
 		</sound>
-		
 		 
 		 <sound name="launch">
 			<path>./sounds/se_sys_click_game.wav</path>
@@ -209,10 +192,7 @@ author:			ruckage
 		 
 	</view>
 
-	<view name="basic">
+	<view name="basic, detailed">
+			<!-- dunno if its needed lol -->
 	</view>
-
-	<view name="detailed">
-	</view>
-	
 </theme>
