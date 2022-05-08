@@ -195,4 +195,31 @@ author:			Szalik & ruckage
 	<view name="basic, detailed">
 			<!-- dunno if its needed lol -->
 	</view>
+	
+	<view name="menu">
+		<menuText name="menutitle">
+			<fontSize>0.034375</fontSize>
+			<color>FF0000</color>
+		</menuText>
+		<menuText name="menufooter">
+			<fontSize>0.0325</fontSize>
+			<color>FF0000</color>
+		</menuText>
+		<menuText name="menutext">
+			<fontSize>0.036</fontSize>
+			<color>757575</color>
+			<separatorColor>222222</separatorColor>
+			<selectorColor>555555</selectorColor>
+			<selectedColor>ffffff</selectedColor>
+		</menuText>
+		<menuTextSmall name="menutextsmall">
+			<fontSize>0.03</fontSize>
+			<color>d53600</color>
+		</menuTextSmall>
+		<menuBackground name="menubg">
+			<color>c8c8c8</color>
+			<cornerSize>20 20</cornerSize>
+		</menuBackground>
+	</view>
+	
 </theme>
