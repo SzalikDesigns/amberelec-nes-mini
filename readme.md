@@ -1,14 +1,23 @@
-Theme designed by Ruckage
-Optimized and improved by BroskiPlays
-Version 1.0
-12-01-2022
 
-Theme based on the NES Mini Theme made by Ruckage optimized for 3:2 devices.
+---
 
-Summary
---------------------------------------------------------------------------------
+![GitHub-Mark-Dark](https://camo.githubusercontent.com/9d21b94911995ca5ed907fd1688dae360411a1d792a6f4047962041ca12b0b02/68747470733a2f2f616d626572656c65632e6f72672f696d616765732f7472616e73706172656e745f616d6265725f656c65635f686f72697a2e7376672367682d6461726b2d6d6f64652d6f6e6c79#gh-dark-mode-only)
+![GitHub-Mark-Light](https://camo.githubusercontent.com/1ecfd366cc8fc1bf3dab7a1f685280e2f88f0f43946a9ca784a044ef883fe375/68747470733a2f2f616d626572656c65632e6f72672f696d616765732f7472616e73706172656e745f626c61636b5f616d6265725f656c65635f686f72697a2e7376672367682d6c696768742d6d6f64652d6f6e6c79#gh-light-mode-only)
+<br />Fork Created for RG351P/M or any Devices with resolution 480x320 running Emulation Station.<p>
 
-This 351Elec theme is a port of the NES Mini theme made by Ruckage and adds a couple of new things which the original didn't have. 
+---
+
+### Thanks and Credits
+
+* Theme designed by Ruckage
+* Optimized and improved by BroskiPlays
+
+
+---
+
+### Summary
+
+This amberELEC theme is a port of the NES Mini theme made by Ruckage and adds a couple of new things which the original didn't have. 
 
 Currently this theme is best suited for 3:4 screen devices only. This means that the RG351P and any other 3:4 aspect ratio devices 
 are gonna benefit from this the most. Other devices do work but text and other stuff might look out of place. 
@@ -16,94 +25,13 @@ I am currently thinking about making RG351V and RG352 versions aswell. This Them
 the 351Elec devices. This theme will be available on the Themes section of 351Elec itself but until then you can download it from the github here. 
 Thanks for your time and i hope you like this theme.
 
-Credits go to Ruckage for the original theme, antfortytwo for helping out and Cebion & the rest of the 351Elec dev team for uploading this to the 351Elec Themes Repo.
+---
 
+### Screenshots:
 
-Original Retropie Theme by Ruckage:
-https://github.com/ruckage/es-theme-nes-mini
-
-Screenshots:
--------------------------------------------------------------------------------  
 [![Image from Gyazo](https://i.gyazo.com/7d1fe12bc0b57d5b73091bb645e7e004.png)](https://gyazo.com/7d1fe12bc0b57d5b73091bb645e7e004)
+  
 
-Supported Systems:
--------------------------------------------------------------------------------  
+---
 
-Currently this theme supports:
 
-NES Hacks
-SNES Hacks
-Game Gear Hacks
-Genesis Hacks
-GB Hacks
-GBC Hacks
-GBA Hacks
-Sega Saturn
-Pico-4
-ScummmVM
-EasyRPG
-Satellaview
-NES
-Atari 2600
-Atari 5200
-Atari 7800
-Commodore 64
-Gameboy
-Gameboy Color
-Intellivision
-Sega Game Gear
-Sega Master System
-PC Engine
-TurboGrafx 16
-ZX Spectrum
-Retropie setup menu
-Famicom
-Gameboy Advance
-Super Nintendo
-Neo Geo
-Megadrive
-Genesis
-Colecovision
-Vectrex
-Super Famicom
-MAME
-NeoGeo Pocket
-NeoGeo Pocket Color
-Family Computer Disk System
-Playstation
-Wonderswan
-Wonderswan Color
-Final Burn Alpha
-Nintendo 64
-Sega Cd
-Odyssey 2
-Nintendo DS
-Arcade
-Daphne
-PSP
-SG-1000
-Atari Lynx
-Ports
-Virtual Boy
-auto-favorites
-auto-lastplayed
-auto-allgames
-Dreamcast
-Sega 32x
-custom-collections
-pc
-game & watch
-amiga
-pc engine cd
-msx
-msx2
-
-Changelog
--------------------------------------------------------------------------------  
-
-13/01/2022
-Added Sega Saturn, SNES Hacks, NES Hacks, GBA Hacks, GB Hacks, GBC Hacks, Genesis Hacks and Game Gear Hacks.
-
-12/01/2022
-Added a couple new systems, changed the position of all the text and images to fit 3:2 screens. 
-Added sound effects, themes for collections and added Mario, Zelda & Pokemon collections.
